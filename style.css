@@ -1,4 +1,11 @@
-p {
+body {
+    background-color: lightgray;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  p {
 
 
     color: red;
