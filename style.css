@@ -6,6 +6,10 @@ body {
     font-size: 24px;
   }
 
+  .title {
+    color: red
+  }
+
   .text {
     color: green;
   }
