@@ -14,3 +14,21 @@ body {
     width: 300px;
     height: auto;
   }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #smiley {
+      width: 300px;
+    }
+  }
