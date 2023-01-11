@@ -20,7 +20,7 @@ body {
   }
 
   .column {
-    float: left;
+    float: none;
     width: 33.33%;
   }
   
