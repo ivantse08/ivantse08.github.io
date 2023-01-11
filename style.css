@@ -5,10 +5,12 @@ body {
   h1 {
     font-size: 24px;
   }
-  p {
 
-
-    color: red;
-
-
-}
+  .text {
+    color: green;
+  }
+  
+  #smiley {
+    width: 300px;
+    height: auto;
+  }
