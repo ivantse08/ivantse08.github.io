@@ -21,8 +21,9 @@ body {
   }
 
   .column {
-    float: none;
+    float: left;
     width: 33.33%;
+    background-color: rgb(211, 211, 211);
   }
   
   /* Clear floats after the columns */
