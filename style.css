@@ -22,10 +22,10 @@ body {
 
   .column {
     float : left;
-    width: 33.33%;
-    border: 5px outset red;
+    width: 25%;
+    border: 1px outset black;
     background-color: lightblue;
-    padding: 50px;
+    padding-left: 50px;
     text-align: center;
   }
   
