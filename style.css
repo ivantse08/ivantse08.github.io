@@ -21,6 +21,7 @@ body {
   }
 
   .column {
+    float : left;
     width: 33.33%;
     border: 5px outset red;
     background-color: lightblue;
