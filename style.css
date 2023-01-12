@@ -21,9 +21,10 @@ body {
   }
 
   .column {
-    float: left;
     width: 33.33%;
-    background-color: rgb(211, 211, 211);
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
   }
   
   /* Clear floats after the columns */
