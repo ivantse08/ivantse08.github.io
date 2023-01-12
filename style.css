@@ -3,7 +3,11 @@ body {
   }
   
   h1 {
-    font-size: 36px;
+    font-size: 8vw;
+  }
+
+  h2 {
+    font-size: 2vw;
   }
 
   .title {
@@ -35,6 +39,7 @@ body {
     display: table;
     clear: both;
   }
+
   
   @media only screen and (max-width: 400px) {
     #smiley {
