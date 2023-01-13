@@ -27,10 +27,19 @@ body {
 
   .column {
     float : left;
-    width: 25%;
+    width: 30%;
     background-color: lightblue;
     background-clip: content-box;
-    padding-right: 0.1vw;
+    padding-right: 0.5vw;
+    text-align: center;
+  }
+
+  .column3 {
+    float : right;
+    width: 30%;
+    background-color: lightblue;
+    background-clip: content-box;
+    padding-right: 0.5vw;
     text-align: center;
   }
   
