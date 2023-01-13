@@ -19,6 +19,11 @@ body {
     font-family: Arial, Geneva, Helvetica, sans-serif;
   }
 
+  #smiley {
+    width: 2vw;
+    height: auto;
+  }
+
   .text {
     float: right;
     color: green;
