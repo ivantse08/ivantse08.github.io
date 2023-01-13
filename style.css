@@ -30,9 +30,8 @@ body {
   .column {
     float : left;
     width: 25%;
-    border: 1px outset black;
     background-color: lightblue;
-    padding-right: 50px;
+    padding-right: 2vw;
     text-align: center;
   }
   
