@@ -3,11 +3,11 @@ body {
   }
   
   h1 {
-    font-size:15vw;
+    font-size:10vw;
   }
 
   h2 {
-    font-size:10vw;
+    font-size:6vw;
   }
 
   .title {
@@ -17,11 +17,11 @@ body {
 
   .text {
     color: black;
-    font-size:6vw;
+    font-size:4vw;
   }
 
   p {
-    font-size:6vw;
+    font-size:4vw;
   }
   
   #smiley {
