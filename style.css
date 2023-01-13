@@ -7,7 +7,7 @@ body {
   }
 
   h2 {
-    font-size: 2vw;
+    font-size: 6vw;
   }
 
   .title {
@@ -17,6 +17,11 @@ body {
 
   .text {
     color: black;
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 4vw;
   }
   
   #smiley {
