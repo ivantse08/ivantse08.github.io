@@ -39,7 +39,7 @@ body {
     width: 32%;
     background-color: lightblue;
     background-clip: content-box;
-    padding: 0.5vw;
+    padding-right: 0.5vw;
     text-align: center;
   }
   
