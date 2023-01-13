@@ -10,6 +10,10 @@ body {
     font-size:3vw;
   }
 
+  h3 {
+    font-size:2vw;
+  }
+
   .title {
     color: red;
     font-family: Arial, Geneva, Helvetica, sans-serif;
