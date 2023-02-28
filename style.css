@@ -1,56 +1,52 @@
-body {
-    background-color: lightgray;
-  }
-  
-  h1 {
-    font-size:7vw;
+/* 
+Group number:
+Student Names:
+*/
+* {
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.3;
+}
+/* Add your styles below this line */
+li {
+   display: inline-block;
+}
+
+body{
+    background: linear-gradient(to right, rgba(241, 205, 71, 0.803), rgb(226, 126, 71), rgb(211, 49, 49));
+}
+
+.header-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content : space-between;
+  flex-direction: column;
+}
+
+section:first-of-type {
+    border-width: 3px;
+    border-color: black;
+    border-style:solid;
   }
 
-  h2 {
-    font-size:3vw;
-  }
+.header-left{
+  margin-right: 16px;
+}
 
-  h3 {
-    font-size:2vw;
-  }
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-  .title {
-    color: red;
-    font-family: Arial, Geneva, Helvetica, sans-serif;
-  }
-
-  #smiley {
-    width: 2vw;
-    height: auto;
-  }
-
-  .text {
-    float: right;
-    color: green;
-    font-size:1vw;
-  }
-
-  .column {
-    float : left;
-    width: 32%;
-    background-color: lightblue;
-    background-clip: content-box;
-    padding-right: 0.5vw;
-    text-align: center;
-  }
-
-  .column3 {
-    float : left;
-    width: 32%;
-    background-color: lightblue;
-    background-clip: content-box;
-    padding-right: 0.5vw;
-    text-align: center;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+main{   
+    display: flex; 
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
