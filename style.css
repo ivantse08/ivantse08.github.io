@@ -82,3 +82,79 @@ border-right: 3px solid black;
 border-left: 3px solid black;
 font-size: 110%;
 }
+
+/* making them display as inline blocks. This is likely used to align multiple figures horizontally on the page.*/
+figure{
+  display: inline-block;
+}
+
+#section3 .image-container{
+  text-align:center;
+}
+
+#section4 {
+  background-color: #f6d891;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border: 3px solid black;
+  font-size: 110%;
+  }
+
+  #section4 .image-container{
+    text-align:center;
+  }
+
+section:first-of-type {
+  border-width: 3px;
+  border-color: black;
+  border-style:solid;
+}
+
+/* selector defines styles for the left side of the header, adding some margin and defining a specific size for the logo image.*/
+.header-left{
+margin-right: 16px;
+}
+
+.header-left img{
+width: 150px;
+height: auto;
+}
+
+/* defines styles for a container element that wraps the entire page content. This container is set to display as a flex container with a column layout, and its minimum height is set to the full viewport height.*/
+.container{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+/*selectors define styles for hyperlinks on the page, setting their font weight, style, and color. The :link, :visited, :hover, and :active pseudo-classes are used to define different styles for the different states of the hyperlink.*/
+a {
+  font-weight: bold;
+  font-style: italic;
+  color: black
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* defines styles for the main content area of the page, setting it to display as a flex container and centering its content both vertically and horizontally.*/
+main{
+  display: flex;
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+}
