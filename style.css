@@ -1,56 +1,84 @@
-body {
-    background-color: lightgray;
-  }
-  
-  h1 {
-    font-size:7vw;
-  }
+/*
+Group number: 19
+Student Names:Leyang Pan, Linus Lim, Binjie Ye, Yizhou Zhou, Ivan Tse
+*/
+* {
+  margin: 0;
+  padding: 4px;
+  box-sizing: border-box;
+  font-size: 100%;
+  line-height: 1.3;
+}
+/* Add your styles below this line */
+li {
+ display: inline-block; /* used to arrange list items horizontally rather than vertically. */
+}
 
-  h2 {
-    font-size:3vw;
-  }
+img {
+  transition: transform .7s ease-in-out;
+}
+img:hover {
+  transform: scale(1.07); /* define a transition effect when hovering over images on the page.
+                             used to scale the image to 107% of its original size, creating a zoom-in effect.*/
+}
 
-  h3 {
-    font-size:2vw;
-  }
+body{
+  background: linear-gradient(to right, rgb(201, 100, 100), rgb(199, 133, 98),  rgba(213, 195, 128, 0.803)); /* creates a colorful background for the page */
+}
 
-  .title {
-    color: red;
-    font-family: Arial, Geneva, Helvetica, sans-serif;
-  }
+.header-right{ /* defines styles for the right side of the header, positioning it absolutely at the top right of the page and aligning the items inside it */
+position: absolute;
+top: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content : space-between; /* set to space-between to create space between the elements inside the header. */
+flex-direction: column;
+}
 
-  #smiley {
-    width: 2vw;
-    height: auto;
-  }
+.btn{
+color:rgb(37, 37, 123);
+font-family:'Times New Roman', Times, serif; /* defines styles for buttons on the page, setting their font color and font family.*/
+}
 
-  .text {
-    float: right;
-    color: green;
-    font-size:1vw;
-  }
+/* selectors define styles for different sections of the page. These sections are likely used to organize the content of the page*/
+#section1 {
+background-color: rgb(246, 166, 126);
+color: black;
+font-family: 'Times New Roman', Times, serif;
+float: left;
+width:75%;
+height:100%;
+box-sizing: border-box;
+font-size: 110%;
+}
 
-  .column {
-    float : left;
-    width: 32%;
-    background-color: lightblue;
-    background-clip: content-box;
-    padding-right: 0.5vw;
-    text-align: center;
-  }
+/*  selectors define styles for containers that hold images in some of the sections. */
+#section1-image-container{
+  text-align:center;
+  float: right;
+  width:25%;
+  height:100%;
+  box-sizing: border-box;
+}
 
-  .column3 {
-    float : left;
-    width: 32%;
-    background-color: lightblue;
-    background-clip: content-box;
-    padding-right: 0.5vw;
-    text-align: center;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+#section2 {
+background-color: #f9c784;
+color: rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+font-size: 110%;
+border: 3px solid black;
+}
+
+#section2 .image-container{
+  text-align:center;
+}
+
+#section3 {
+background-color: #f8c898;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+border-right: 3px solid black;
+border-left: 3px solid black;
+font-size: 110%;
+}
