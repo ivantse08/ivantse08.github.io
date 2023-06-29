@@ -1,7 +1,3 @@
-/*
-Group number: 19
-Student Names:Leyang Pan, Linus Lim, Binjie Ye, Yizhou Zhou, Ivan Tse
-*/
 * {
   margin: 0;
   padding: 4px;
@@ -14,31 +10,109 @@ li {
  display: inline-block; /* used to arrange list items horizontally rather than vertically. */
 }
 
-img {
-  transition: transform .7s ease-in-out;
-}
-img:hover {
-  transform: scale(1.07); /* define a transition effect when hovering over images on the page.
-                             used to scale the image to 107% of its original size, creating a zoom-in effect.*/
-}
-
 body{
-  background: linear-gradient(to right, rgb(201, 100, 100), rgb(199, 133, 98),  rgba(213, 195, 128, 0.803)); /* creates a colorful background for the page */
+  background-color: rgb(207, 203, 203);
 }
 
-.header-right{ /* defines styles for the right side of the header, positioning it absolutely at the top right of the page and aligning the items inside it */
-position: absolute;
-top: 0;
-right: 0;
-display: flex;
-align-items: center;
-justify-content : space-between; /* set to space-between to create space between the elements inside the header. */
-flex-direction: column;
+header {
+background-color: white;
 }
 
-.btn{
-color:rgb(37, 37, 123);
-font-family:'Times New Roman', Times, serif; /* defines styles for buttons on the page, setting their font color and font family.*/
+.header {
+  background-image: url("images/Header.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto 100%; /* Adjust the background size as needed */
+  height: 300px;
+}
+
+.header-container {
+position: relative;
+text-align: center;
+color: white;
+max-width: 980px;
+margin: 0 auto;
+width: 100%;
+}
+
+ .header-content {
+  position: absolute;
+  top: 18%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: left;
+}
+
+.second-header {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: left;
+}
+
+   
+h1 { 
+  color: #231F20;
+  font-family: system-ui, system-ui, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 19pt; 
+}
+
+h2 { 
+  color: #231F20;
+  font-family: system-ui, system-ui, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 43pt; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* defines styles for a container element that wraps the entire page content. This container is set to display as a flex container with a column layout, and its minimum height is set to the full viewport height.*/
+.body-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1200px; 
+  background-color: white;
+  width: 100%;
+  }
+
+  .dropdown {
+    margin-top: 50px;
+    background-color: green;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+
+main {
+  padding-top: 150px; /* create space for new content below the header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin-right: 16px;
+  width: 10%;
+  text-align:left;
+  background-color: green;
+  color: white;
+
 }
 
 /* selectors define styles for different sections of the page. These sections are likely used to organize the content of the page*/
@@ -46,115 +120,30 @@ font-family:'Times New Roman', Times, serif; /* defines styles for buttons on th
 background-color: rgb(246, 166, 126);
 color: black;
 font-family: 'Times New Roman', Times, serif;
-float: left;
-width:75%;
+float: right;
+width:100%;
 height:100%;
 box-sizing: border-box;
 font-size: 110%;
 }
 
+.section-wrapper {
+  width: 100%;
+  max-width: 1200px; /* Set the maximum width of the section wrapper */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /*  selectors define styles for containers that hold images in some of the sections. */
-#section1-image-container{
-  text-align:center;
-  float: right;
-  width:25%;
-  height:100%;
-  box-sizing: border-box;
-}
-
-#section2 {
-background-color: #f9c784;
-color: rgb(0, 0, 0);
-font-family: 'Times New Roman', Times, serif;
-font-size: 110%;
-border: 3px solid black;
-}
-
-#section2 .image-container{
-  text-align:center;
-}
-
-#section3 {
-background-color: #f8c898;
-color: black;
-font-family: 'Times New Roman', Times, serif;
-border-right: 3px solid black;
-border-left: 3px solid black;
-font-size: 110%;
-}
-
-/* making them display as inline blocks. This is likely used to align multiple figures horizontally on the page.*/
-figure{
-  display: inline-block;
-}
-
-#section3 .image-container{
-  text-align:center;
-}
-
-#section4 {
-  background-color: #f6d891;
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  border: 3px solid black;
-  font-size: 110%;
-  }
-
-  #section4 .image-container{
-    text-align:center;
-  }
-
 section:first-of-type {
   border-width: 3px;
   border-color: black;
   border-style:solid;
 }
 
-/* selector defines styles for the left side of the header, adding some margin and defining a specific size for the logo image.*/
-.header-left{
-margin-right: 16px;
-}
 
-.header-left img{
-width: 150px;
-height: auto;
-}
 
-/* defines styles for a container element that wraps the entire page content. This container is set to display as a flex container with a column layout, and its minimum height is set to the full viewport height.*/
-.container{
-display: flex;
-flex-direction: column;
-min-height: 100vh;
-}
 
-/*selectors define styles for hyperlinks on the page, setting their font weight, style, and color. The :link, :visited, :hover, and :active pseudo-classes are used to define different styles for the different states of the hyperlink.*/
-a {
-  font-weight: bold;
-  font-style: italic;
-  color: black
-}
 
-a:link {
-  text-decoration: none;
-}
 
-a:visited {
-  text-decoration: none;
-}
 
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-
-/* defines styles for the main content area of the page, setting it to display as a flex container and centering its content both vertically and horizontally.*/
-main{
-  display: flex;
-  margin:auto;
-  align-items: center;
-  justify-content: center;
-}
