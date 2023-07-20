@@ -16,3 +16,12 @@ window.addEventListener('click', function(event) {
   }
 });
 
+function showOptions(dropdownId) {
+  const dropdownContent = document.getElementById(dropdownId);
+  dropdownContent.style.display = 'block';
+}
+
+function hideOptions(dropdownId) {
+  const dropdownContent = document.getElementById(dropdownId);
+  dropdownContent.style.display = 'none';
+}

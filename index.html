@@ -19,11 +19,34 @@
 
       <div class="body-container">
          <div class="dropdown">
-            <button class="button">Home</button>
-            <button class="button">Services</button>
-            <button class="button">
-               <a href="about/about.html" class="button">About</a>
-            </button>
+            <div class="dropdown-container">
+              <button class="dropdown-button" onmouseenter="showOptions('dropdown1')" onmouseleave="hideOptions('dropdown1')">Home</button>
+              <div class="dropdown-content" id="dropdown1">
+                <button class="dropdown-options">Option 1</button>
+                <button class="dropdown-options">Option 2</button>
+                <button class="dropdown-options">Option 3</button>
+              </div>
+            </div>
+            
+            <div class="dropdown-container">
+              <button class="dropdown-button" onmouseenter="showOptions('dropdown2')" onmouseleave="hideOptions('dropdown2')">Services</button>
+              <div class="dropdown-content" id="dropdown2">
+                <button class="dropdown-options">Option 4</button>
+                <button class="dropdown-options">Option 5</button>
+                <button class="dropdown-options">Option 6</button>
+              </div>
+            </div>
+            
+            <div class="dropdown-container">
+              <button class="dropdown-button" onmouseenter="showOptions('dropdown3')" onmouseleave="hideOptions('dropdown3')">
+                <a href="about/about.html">About</a>
+              </button>
+              <div class="dropdown-content" id="dropdown3">
+                <button class="dropdown-options">Option 7</button>
+                <button class="dropdown-options">Option 8</button>
+                <button class="dropdown-options">Option 9</button>
+              </div>
+            </div>
          </div>
 
          <main>
