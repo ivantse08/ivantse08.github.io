@@ -245,6 +245,13 @@ section p{
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  body {
+    height: 50vh; /* Show only the top half of the website on mobile */
+    overflow: hidden; /* Hide the bottom half of the website */
+  }
+}
+
 
 
 
