@@ -12,7 +12,7 @@ li {
 }
 
 body{
-  background-color: rgb(207, 203, 203);
+  background-color: rgb(81, 185, 90);
 }
 
 header {
@@ -97,61 +97,154 @@ h2 {
     width: 100%;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  flex: 1;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: green;
 }
   
   .dropdown-content button {
     display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: none;
   }
 
   .dropdown-button {
     margin-right: 16px;
-    width: 100%;
-    text-align:left;
-    background-color: black;
+    flex: 1; /* Equal size for all buttons */
+    max-width: 200px; /* Optional: Set a maximum width for the buttons */
+    background-color: transparent;
     color: white;
-    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    outline: 2px solid blue;
   
   }
 
 
 main {
-  padding-top: 150px; /* create space for new content below the header */
+  padding-top: 5px; /* create space for new content below the header */
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
+.pharmacy-header {
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h3 {
+  color: #231F20;
+  font-family: system-ui, system-ui, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 28pt; 
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightblue;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%; /* Ensure all images have the same width */
+  max-width: calc(20% - 10px); /* Calculate 20% of the container width minus spacing */
+  margin: 0; /* Remove any default margins on images */
+  padding: 5px; /* Add some spacing between images (optional) */
+  box-sizing: border-box; /* Include padding in the image size calculation */
+}
+
+.two-column-container {
+  display: flex; /* Use flexbox to create a two-column layout */
+  flex-wrap: wrap; /* Wrap the columns to the next row on small screens */ 
+  margin: 5px auto; /* Center the container with some margin */
+  width:100%;
+}
+
+.column {
+  flex: 1; /* Make each column take equal space */
+  padding: 10px; /* Add some padding around each column */
+  box-sizing: border-box; /* Include padding in the column size calculation */
+}
+
+.column iframe {
+  display: block; /* Set the iframe to display as a block element */
+  width: 100%; /* Make the iframe take the full width of the column */
+  height: 400px; /* Set a fixed height for the iframe */
+}
+
+.column p {
+  text-align: center; /* Center the captions under each column */
+}
+
+.column img {
+  width: 100%; /* Make the image take the full width of the column */
+}
+
+h4 {
+  color: #231F20;
+  font-family: system-ui, system-ui, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14pt;
+}
+.section-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; /* Wrap the columns to the next row on small screens */ 
+  margin: 5px auto; /* Center the container with some margin */
+}
 
 /* selectors define styles for different sections of the page. These sections are likely used to organize the content of the page*/
-#section1 {
+section {
+flex: 1;
+padding: 10px; /* Add some padding around each column */
+box-sizing: border-box; /* Include padding in the column size calculation */
 background-color: rgb(246, 166, 126);
-color: black;
 font-family: 'Times New Roman', Times, serif;
-float: right;
-width:100%;
-height:100%;
-box-sizing: border-box;
-font-size: 110%;
+border-color: black;
+border-style: solid;
 }
 
-.section-wrapper {
-  width: 100%;
-  max-width: 1200px; /* Set the maximum width of the section wrapper */
-  margin: 0 auto;
-  padding: 0 20px;
+h5 { 
+  color: #231F20;
+  font-family: system-ui, system-ui, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 19pt;
+  text-align: center; 
 }
 
-/*  selectors define styles for containers that hold images in some of the sections. */
-section:first-of-type {
-  border-width: 3px;
-  border-color: black;
-  border-style:solid;
+section p{
+  text-align: center;
 }
+
 
 
 
