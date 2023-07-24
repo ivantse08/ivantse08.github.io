@@ -64,6 +64,21 @@ padding: 4px;
   transform: translate(-50%, -50%);
 }
 
+.language-button {
+  background-color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+color: white;
+}
+
+button:hover {
+  font-weight: bolder;
+}
    
 h1 { 
   padding: 4px;
