@@ -25,3 +25,5 @@ function hideOptions(dropdownId) {
   const dropdownContent = document.getElementById(dropdownId);
   dropdownContent.style.display = 'none';
 }
+
+
