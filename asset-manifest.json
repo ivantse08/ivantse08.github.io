@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ivantse08.github.io/static/css/main.d4a47af6.css",
+    "main.js": "/ivantse08.github.io/static/js/main.a7dd4102.js",
+    "static/js/453.ed3810f9.chunk.js": "/ivantse08.github.io/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/ivantse08.github.io/index.html",
+    "main.d4a47af6.css.map": "/ivantse08.github.io/static/css/main.d4a47af6.css.map",
+    "main.a7dd4102.js.map": "/ivantse08.github.io/static/js/main.a7dd4102.js.map",
+    "453.ed3810f9.chunk.js.map": "/ivantse08.github.io/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a47af6.css",
+    "static/js/main.a7dd4102.js"
+  ]
+}
