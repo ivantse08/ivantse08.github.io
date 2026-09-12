@@ -1,5 +1,17 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+## Background
+
+I grew up in Vancouver and studied Computer Engineering at the University of British Columbia. During my degree, I had the opportunity to work in both technical and customer-facing environments. I spent over a year as a full-stack developer at a small 3D printing company, where I worked on web applications and tools used by customers. I also worked in retail at Fjallraven and also as a Kumon instructor, which gave me experience working with people and solving problems outside of a purely technical setting.
+
+## Why Data Science
+
+I became interested in data science because I enjoy finding patterns in information and using them to answer questions. Sports have been a big part of this interest. I have followed hockey and basketball for years, and I've found myself naturally paying attention to statistics, player performance, and fantasy sports. The MDS program gives me an opportunity to build stronger skills in statistics, programming, and data analysis while exploring how I can apply them to areas that I genuinely enjoy.
+
+## Outside of Data Science
+
+Outside of school, I spend a lot of my time playing and watching sports. I enjoy tennis, ultimate frisbee, hiking, and following many different sport leagues. I have also been involved with Scouts for many years and currently volunteer as a Venturer Advisor, where I help organize activities and outdoor trips for youth.
+On weekends, I usually prefer doing something active or getting outside rather than staying home. I enjoy hiking, camping, exploring new places, and trying different restaurants with friends and family. I also like travelling and finding opportunities to experience places that are different from Vancouver.
+
