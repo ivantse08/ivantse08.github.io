@@ -2,9 +2,5 @@
 title: "Ivan Tse"
 ---
 
-about:
-  template: jolla
-  image: images/myself.jpg
-
 Hello my name is Ivan! I am born and raised in Vancouver with my family coming from Hong Kong. I studied Computer Engineering in my undergrad here at UBC and graduated just recently in 2026!
 In this program, I'm hoping to gain the ability to work with data especially within sports as I've always had a strong interest in sports and want to combine my two interests.

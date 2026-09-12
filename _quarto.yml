@@ -1,13 +1,20 @@
 project:
   type: website
 
+about:
+  template: jolla
+  image: images/myself.jpg
+
 website:
   title: "Ivan Tse"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:
